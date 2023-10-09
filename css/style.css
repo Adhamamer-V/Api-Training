@@ -115,6 +115,7 @@ main .container .Search-Bar .searchIcon {
   position: absolute;
   left: 50px;
   color: #8a8a8a;
+  cursor: pointer;
 }
 /* main end */
 
