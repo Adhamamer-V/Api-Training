@@ -83,5 +83,3 @@ input.addEventListener("keyup", (event) => {
 });
 
 continentSelect.addEventListener("change", filterCountries);
-
-// script.js
