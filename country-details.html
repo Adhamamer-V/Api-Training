@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Details</title>
+    <script
+      src="https://kit.fontawesome.com/9319daf0e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="mainText">
+          <p>Where in the World</p>
+        </div>
+        <div class="modeButton">
+          <i class="fa-regular fa-moon icon"></i>
+          <p>Dark Mode</p>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="country-details">
+        <div class="flag-con">
+          <img class="flag" />
+        </div>
+        <div class="text">
+          <h2 class="name"></h2>
+          <div class="some-texts">
+            <div class="f-text">
+              <p class="population"></p>
+              <p class="region"></p>
+              <p class="subregion"></p>
+              <p class="capital"></p>
+            </div>
+            <div class="s-text">
+              <p class="language"></p>
+              <p class="currencies"></p>
+              <p class="top-level-domain"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button onclick="redirectToHome();" class="back-button">
+        <i class="fa-solid fa-left-long"></i>
+        Back to Home
+      </button>
+    </div>
+    <script src="js/cd.js"></script>
+  </body>
+</html>
